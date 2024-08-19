@@ -1,0 +1,17 @@
+node_modules
+dist
+results
+.nyc_output
+*.tsbuildinfo
+coverage
+.idea
+report
+.DS_Store
+.eslintcache
+.jscpd
+docs
+.cache
+tmp
+sandbox
+tmp/
+build/

@@ -1,0 +1,63 @@
+{
+  "name": "jscpd-gitlab-reporter",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Reporter for jscpd. Generate a report in CodeClimate format for use in GitLab Code Quality Reports.",
+  "keywords": [
+    "jscpd",
+    "cpd",
+    "reporter",
+    "jscpd-reporter",
+    "gitlab",
+    "codeclimate"
+  ],
+  "author": "Mike Heyns <mike.heyns@bitflip.sh>",
+  "homepage": "https://github.com/benaroo/jscpd-gitlab-reporter#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "typings": "dist/index.d.mts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./README.md": "./README.md"
+  },
+  "scripts": {
+    "build": "tsup-node --dts",
+    "typecheck": "tsc --noEmit",
+    "cleanup": "rimraf ./dist"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/beanaroo/jscpd-gitlab-reporter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/beanaroo/jscpd-gitlab-reporter/issues"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "@jscpd/core": "^4.0.1",
+    "@jscpd/finder": "^4.0.1",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.2.0",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}
