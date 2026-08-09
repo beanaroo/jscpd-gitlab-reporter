@@ -12,7 +12,7 @@
     "codeclimate"
   ],
   "author": "Mike Heyns <mike.heyns@bitflip.sh>",
-  "homepage": "https://github.com/benaroo/jscpd-gitlab-reporter#readme",
+  "homepage": "https://github.com/beanaroo/jscpd-gitlab-reporter#readme",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -42,7 +42,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/beanaroo/jscpd-gitlab-reporter.git"
+    "url": "git+https://github.com/beanaroo/jscpd-gitlab-reporter.git"
   },
   "bugs": {
     "url": "https://github.com/beanaroo/jscpd-gitlab-reporter/issues"
