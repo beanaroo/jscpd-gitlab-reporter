@@ -1,6 +1,6 @@
 {
   "name": "jscpd-gitlab-reporter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "Reporter for jscpd. Generate a report in CodeClimate format for use in GitLab Code Quality Reports.",
   "keywords": [
